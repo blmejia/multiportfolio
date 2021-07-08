@@ -9,7 +9,7 @@ $pink: #FA7C91;
 $brown: #757763;
 $beige-light: #D0D1CD;
 $white: #FFFF;
-
+//
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
 $grey-dark: $brown;
@@ -40,5 +40,6 @@ $input-shadow: none;
 
 // MOBILE STYLES // /
 @import "../sass/mobilestyles.scss";
+@import "../sass/tablet.scss";
 @import "../node_modules/bulma/bulma.sass"
 
