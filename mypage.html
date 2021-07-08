@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My custom Bulma website</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+    
+    <script src="https://kit.fontawesome.com/f0f7ade3a3.js" crossorigin="anonymous"></script>
+   
+  </head>
+  <body>
+
+    <style>
+        body {
+          padding: 10px;
+          background-color: white;
+          color: black;
+          
+
+
+        }
+        
+        .dark-mode {
+          background-color: black;
+          color: white;
+
+        
+        }
+        
+        </style>
+
+
+     <div class="mobile-theme">
+         <div class="header-mobile">
+             <div class="icon">
+                <i onclick="myFunction()" id="moon" class="far fa-moon fa-2x"></i>
+             </div>
+         </div>
+         <div class="landing-area-mobile">
+             <div class="profile-mobile">
+                    <div class="typewriter">
+                      <h1 class="title">Shantell Dasilva.</h1>
+                    </div>
+                    <div class="break"></div>
+                    <div class="subtitle">Occupation</div>
+                <div id="profile-text-mobile">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem sit dignissimos aperiam cum praesentium recusandae error unde animi perspiciatis.
+                </div>
+                <div id="social-icons-mobile"></div>
+             </div>
+
+         </div>
+
+
+         <div class="tabs is-centered">
+            <ul>
+              <li class="tab is-active" onclick="openTab(event, 'ecom')"><a>E-Commerce Projects</a></li>
+              <li class="tab" onclick="openTab(event, 'other')"><a>Other Client Projects</a></li>
+              
+            </ul>
+          </div>
+
+         <div class="ecommerce-projects-mobile content-tab" id='ecom'>
+            <div class="card 1">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Project 1
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="#" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+
+              <div class="card 2">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Project 2
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="#" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+
+              <div class="card 3">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Project 3
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="#" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+         </div>
+
+
+        
+         <div class="projects-mobile content-tab" id='other' style="display: none">
+             <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Project 1
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="#" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+
+              <div class="card 1">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Project 2
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="#" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+
+              <div class="card 1">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Project 3
+                  </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                        <div class="content">
+                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </div>
+                 </div>
+                 <footer class="card-footer">
+                    <a href="#" class="card-footer-item">Link</a>
+                    
+                    
+                  </footer>
+              </div>
+         </div>
+         <div class="footer-mobile">
+
+         </div>
+
+     </div>
+
+
+
+     
+     <script>
+        function myFunction() {
+           var ebody = document.body;
+           ebody.classList.toggle("dark-mode");
+
+           var icon = document.getElementById("moon").style.color = white;
+
+        }
+        </script>
+        <script src="/main.js"></script>
+  </body>
+</html>
