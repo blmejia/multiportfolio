@@ -2,6 +2,7 @@
 
 body{
     overflow-x: hidden;
+  
 }
 
 .mobile-theme{
@@ -51,6 +52,7 @@ body{
                     blink-caret .5s step-end infinite;
                     height: auto;
                     white-space: nowrap;
+                   
                 }
                 @keyframes typing {
                     from{ width: 0px}
