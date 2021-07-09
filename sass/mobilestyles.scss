@@ -37,7 +37,7 @@ body{
         .profile-mobile{
             margin: $margin;
             height: auto;
-            width: 75%;
+            width: 100%;
            // background-color: blue;
             display: flex;
             justify-content: center;
@@ -53,6 +53,8 @@ body{
                     blink-caret .5s step-end infinite;
                     height: auto;
                     white-space: nowrap;
+                    color: black;
+                    font-weight: bold;
                    
                 }
                 @keyframes typing {
