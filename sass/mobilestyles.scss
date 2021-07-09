@@ -37,13 +37,13 @@ body{
         .profile-mobile{
             margin: $margin;
             height: auto;
-            width: fit-content;
+            width: 75%;
            // background-color: blue;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             .typewriter{
-                overflow-x: hidden;
+                
                 h1{
                     overflow: hidden;
                     border-right:  .15em solid black;
