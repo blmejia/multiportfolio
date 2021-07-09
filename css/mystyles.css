@@ -74,22 +74,20 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
-    .mobile-theme .ecommerce-projects-mobile .cards {
-      margin: 5%; }
-      .mobile-theme .ecommerce-projects-mobile .cards .card {
-        width: auto;
-        height: auto; }
+    .mobile-theme .ecommerce-projects-mobile .cards .card {
+      width: auto;
+      height: auto;
+      margin: 3%; }
   .mobile-theme .projects-mobile {
     height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
-    .mobile-theme .projects-mobile .cards {
-      margin: 5%; }
-      .mobile-theme .projects-mobile .cards .card {
-        width: auto;
-        height: auto; }
+    .mobile-theme .projects-mobile .cards .card {
+      width: auto;
+      height: auto;
+      margin: 3%; }
 
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
