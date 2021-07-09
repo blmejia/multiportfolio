@@ -92,10 +92,11 @@ $margin: 10px;
         justify-content:  center;
         flex-wrap: wrap;
         .cards{
+            margin: 5%;
             .card{
                 width: auto;
                 height: auto;
-                margin: 10px;
+              //  margin: 10%;
             }
         }
        
@@ -108,11 +109,11 @@ $margin: 10px;
         justify-content:  center;
         flex-wrap: wrap;
         .cards{
-            //margin: 5%;
+            margin: 5%;
             .card{
                 width: auto;
                 height: auto;
-                margin: 10%;
+                //margin: 10%;
             }
         }
        
